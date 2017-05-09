@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  height: 100vh;
+  min-height: 580px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ddd;
+  margin: auto;
+  padding: 0px;
+  font-family: arial;
+}
+
+div#metro-container {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  background-color: skyblue;
+}
+
+div .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 33.33%;
+}
+
+div .icon-link {
+  background-color: skyblue;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: auto;
+  padding: 7% 0%;
+  border: none;
+}
+
+div#titleBox {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  position: relative;
+  height: 100%;
+  background-color: tomato;
+  border: none;
+}
+
+div#titleBox div {
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+div#titleBox div p#name {
+  font-size: 2em;
+  padding-bottom: 5px;
+}
+div#titleBox div p#subtitle {
+  font-size: .8em;
+  padding-bottom: 18px;
+}
+div#titleBox div button {
+  background: none;
+  width: 100px;
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: white solid 2px;
+  color: white;
+  font-size: .9em;
+}
+
+.icon-link .icon {
+  padding: 5%;
+  color: white;
+  text-align: center;
+}
+.icon-link .icon i {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.icon-link .icon p {
+  font-size: 1.5em;
+}
+.icon-link .icon a {
+  text-decoration: none;
+  color: white;
+}
+
+div#carousel {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-color: linen;
+  background-size: cover;
+  background-image: url("http://www.msgphoto.com/latestshot/wp-content/uploads/2010/07/dennett.jpg");
+}
+
+@media all and (max-width: 700px) {
+  .icon-link .icon i {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .icon-link .icon p {
+    font-size: 1em;
+  }
+
+  button {
+    width: 60px;
+    font-size: .7em;
+  }
+
+  div#carousel {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+}
+div .box-1 {
+  background: #64c0e5;
+}
+
+div .box-2 {
+  background: #41b1df;
+}
+
+div .box-3 {
+  background: #23a1d4;
+}
+
+div .box-4 {
+  background: #1e86b1;
+}
+
+div .box-5 {
+  background: #186c8e;
+}
+
+div .box-6 {
+  background: #12516b;
+}
+
+div .box-7 {
+  background: #0c3748;
+}
