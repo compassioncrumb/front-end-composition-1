@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/dh75021/pen/Emowrq.
+A stock profile page created by Derrik Hanson
 
  
