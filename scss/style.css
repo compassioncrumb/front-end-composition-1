@@ -18,12 +18,16 @@ div .row {
 
 div .icon-link {
   background-color: skyblue;
+  display: flex;
+  flex-direction: column;
   flex: 1;
   height: auto;
   padding: 7% 0%;
   border: none; }
 
 div#titleBox {
+  display: flex;
+  flex-direction: column;
   flex: 2;
   position: relative;
   height: 100%;
@@ -50,7 +54,11 @@ div#titleBox div {
     color: white;
     font-size: .9em; }
 
+.blank {
+  flex: 1; }
+
 .icon-link .icon {
+  flex: 2;
   padding: 5%;
   color: white;
   text-align: center; }

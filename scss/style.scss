@@ -27,6 +27,8 @@ div .row {
 
 div .icon-link {
   background-color: $main-theme-color;
+  display: flex;
+  flex-direction: column;
   flex: 1;
   height: auto;
   padding: 7% 0%;
@@ -34,6 +36,8 @@ div .icon-link {
 }
 
 div#titleBox {
+  display: flex; 
+  flex-direction: column;
   flex: 2;
   position: relative;
   height: 100%;
@@ -67,12 +71,17 @@ div#titleBox div {
  
 }
 
+.blank {
+  flex: 1;
+}
+
 .icon-link .icon {
   // position: relative;
   // float: left;
   // top: 50%;
   // left: 50%;
   // transform: translate(-50%,-50%);
+  flex: 2;
   padding: 5%;
   color: white;
   text-align: center;
